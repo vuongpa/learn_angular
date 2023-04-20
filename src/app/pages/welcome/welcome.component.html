@@ -1,0 +1,3 @@
+<div *ngIf="currentUser">current user: {{currentUser.first_name}} {{currentUser.last_name}}</div>
+<button nzType="primary" nz-button (click)="onSetCurrentUser(fakeNewUser)">Change user</button>
+<!-- <input nz-input [(ngModel)]="inputValue" type="text" /> -->
